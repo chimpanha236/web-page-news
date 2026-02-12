@@ -7,7 +7,10 @@
 }
 
 body {
-    background-color: #023d14;
+    background-image: url(/image/kbach-40.png);
+    background-size: contain;
+    background-size: 200px 200px;
+    background-color: #003366;
     line-height: 1.6;
     overflow-x: hidden; /* ការពារការរមូរផ្ដេក */
     width: 100%;
