@@ -350,8 +350,7 @@ margin-top: 30px;
     footer { font-size: 0.6rem; padding: 15px 5px; }
 }
 
-@media screen and (max-width: 400px) /* សម្រាប់ទូរស័ព្ទតូចៗ */ {
-
+@media screen  and (max-width: 391px) /* សម្រាប់ទូរស័ព្ទតូចៗ */ {
     .site-header { padding: 10px 5px; }
     .main-container .news-feed  h2 { font-size: 0.9rem; }
     .site-logo { max-width: 20%; }
