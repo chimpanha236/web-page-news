@@ -350,7 +350,20 @@ margin-top: 30px;
     footer { font-size: 0.6rem; padding: 15px 5px; }
 }
 
+@media screen and (max-width: 400px) /* សម្រាប់ទូរស័ព្ទតូចៗ */ {
 
+    .site-header { padding: 10px 5px; }
+    .main-container .news-feed  h2 { font-size: 0.9rem; }
+    .site-logo { max-width: 20%; }
+    .nav-link { padding: 6px 12px; font-size: 0.85rem;}
+    .news-card .image-gallery img { height: 100px; }
+    .section-title { font-size: 1.3rem; }
+    .news-card .card-image { height: 200px;}
+    .news-card .card-image img { height: 190px;}
+    .main-container { position: relative; top: -30px; }
+    .sidebar{flex-direction: column; order: 2;position: relative;} /* បន្ថែមលំហសម្រាប់ទូរស័ព្ទតូចៗ */
+    footer { font-size: 0.6rem; padding: 15px 5px; }
+}
 
 @keyframes zoomIn {
     from { transform: scale(0.8); opacity: 0; }
